@@ -1,0 +1,1 @@
+the ... spread syntax allows for iterables to be placed in an arg or another value store like arrays or obj.  ex: sum(...arr) where arr is an array of numbers.  kinda like 0..10 in Ruby. fills in the values into the arg.  
