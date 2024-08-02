@@ -80,7 +80,12 @@ const allSongs = [
 
 //event listeners
 playButton.addEventListener('click', () => {
-  
+  if (userData?.currentSong === null) {
+    playSong(userData?.songs[0].id)
+  }
+  else {
+    playSong(userData?.currentSong.id)
+  }
 });
 
 const audio = new Audio();
